@@ -49,7 +49,7 @@ jobs:
       - name: rebase
         uses: manjaro-contrib/action-rebase@main
         with:
-          upstream: https://aur.archlinux.org/grimshot.git
+          upstream: https://aur.archlinux.org/pacman-log-orphans-hook.git
           dispatch-target: ${{ vars.PACKAGES_REPO }}
           dispatch-token: ${{ secrets.DISPATCH_TOKEN }}
       
