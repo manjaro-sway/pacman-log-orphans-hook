@@ -1,0 +1,4 @@
+_extends: manjaro-contrib/.github
+repository:
+  homepage: https://aur.archlinux.org/pacman-log-orphans-hook.git
+  topics: arch, package, any
