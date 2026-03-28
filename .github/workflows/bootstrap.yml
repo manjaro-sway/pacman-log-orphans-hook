@@ -14,6 +14,6 @@ jobs:
         with:
           token: ${{ secrets.BOOTSTRAP_WORKFLOWS || github.token }}
       - id: bootstrap
-        uses: manjaro-contrib/action-bootstrap-actions@3a2111c11e09f8e3a81f4832bebe5e36a8782879 # main
+        uses: manjaro-contrib/action-bootstrap-actions@771c9268a0996b4b423564da47c4af84504a3346 # main
         with:
           upstream: https://aur.archlinux.org/pacman-log-orphans-hook.git
